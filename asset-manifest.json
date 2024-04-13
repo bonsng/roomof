@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/RoomOf/static/css/main.242e740d.css",
+    "main.js": "/RoomOf/static/js/main.17d6e940.js",
+    "static/js/210.05d92637.chunk.js": "/RoomOf/static/js/210.05d92637.chunk.js",
+    "static/media/sample_video.mp4": "/RoomOf/static/media/sample_video.84d15be559068d8ade60.mp4",
+    "static/media/sample.wav": "/RoomOf/static/media/sample.1024854e40ada450e045.wav",
+    "static/media/KingSejongInstitute-Bold.ttf": "/RoomOf/static/media/KingSejongInstitute-Bold.4c069e57c40612f630af.ttf",
+    "static/media/SF-Pro-Display-Semibold.otf": "/RoomOf/static/media/SF-Pro-Display-Semibold.14bccd365ef62bd4c35d.otf",
+    "static/media/SF-Pro-Text-Bold.otf": "/RoomOf/static/media/SF-Pro-Text-Bold.3dbeded354b72bcd7024.otf",
+    "static/media/SF-Pro-Text-Regular.otf": "/RoomOf/static/media/SF-Pro-Text-Regular.c689d39717f1895e782f.otf",
+    "static/media/sample_image3.jpeg": "/RoomOf/static/media/sample_image3.0164eb7b9e93c33f840d.jpeg",
+    "static/media/sample_image4.JPG": "/RoomOf/static/media/sample_image4.448eb1c1a50acd4f62e0.JPG",
+    "static/media/sample_image8.jpeg": "/RoomOf/static/media/sample_image8.6e2d5a7eff1f74ec1daa.jpeg",
+    "static/media/sample_image7.JPG": "/RoomOf/static/media/sample_image7.f6f0bdb31af9e6a51a6e.JPG",
+    "static/media/sample_image6.jpeg": "/RoomOf/static/media/sample_image6.7375f97b58a3849c1fdd.jpeg",
+    "static/media/sample_image1.jpeg": "/RoomOf/static/media/sample_image1.d6ef020e61f6015d7f5e.jpeg",
+    "static/media/sample_image5.jpeg": "/RoomOf/static/media/sample_image5.39246a237903da37e8e5.jpeg",
+    "static/media/sample_image2.JPG": "/RoomOf/static/media/sample_image2.333f13df8aea97264a0a.JPG",
+    "static/media/thumbnail.png": "/RoomOf/static/media/thumbnail.15b55a165331cd21edef.png",
+    "static/media/bg_image.jpg": "/RoomOf/static/media/bg_image.8846dcc75ea0cffd31dc.jpg",
+    "static/media/Rectangle_5.png": "/RoomOf/static/media/Rectangle_5.2498f5689e9e484c9df0.png",
+    "static/media/Spinner.gif": "/RoomOf/static/media/Spinner.43cbcbecbdc49934b3af.gif",
+    "static/media/user-circle.svg": "/RoomOf/static/media/user-circle.23ea1233d7e2cebec0a11d8a88b2da1a.svg",
+    "index.html": "/RoomOf/index.html",
+    "main.242e740d.css.map": "/RoomOf/static/css/main.242e740d.css.map",
+    "main.17d6e940.js.map": "/RoomOf/static/js/main.17d6e940.js.map",
+    "210.05d92637.chunk.js.map": "/RoomOf/static/js/210.05d92637.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.242e740d.css",
+    "static/js/main.17d6e940.js"
+  ]
+}
