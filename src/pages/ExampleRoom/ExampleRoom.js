@@ -30,6 +30,7 @@ import sample_image6 from "../../images/sample_image6.jpeg";
 import sample_image7 from "../../images/sample_image7.JPG";
 import sample_image8 from "../../images/sample_image8.jpeg";
 import sample_video from "../../images/sample_video.mp4"
+import { useNavigate} from "react-router-dom";
 
 
 const GOLDENRATIO = 1.61803398875;
@@ -188,7 +189,7 @@ function Video({ scale, url, position, frameSize }) {
   useCursor(hovered);
 
   return (
-    <group onClick={() => (window.location.href = "/exampleRoom/items")}>
+    <group onClick={() => (window.location.href = "/RoomOf/exampleRoom/items")}>
       <mesh
         className={styles.videoCanvas}
         scale={scale}
@@ -210,11 +211,12 @@ function Video({ scale, url, position, frameSize }) {
 }
 
 function Frames({ images }) {
+  const navigate = useNavigate();
   const ref = useRef();
   return (
     <group
       ref={ref}
-      onClick={() => (window.location.href = "/exampleRoom/items")}
+      onClick={() => navigate({pathname:"/exampleRoom/items"})}
     >
       {images.map(
         (props) => <Frame key={props.url} {...props} /> /* prettier-ignore */
