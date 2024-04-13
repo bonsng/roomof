@@ -1,0 +1,35 @@
+.floating-button {
+    position: fixed;
+    top: 480px;
+    right: -1px;
+    z-index: 1000;
+    padding: 15px 20px;
+    width: 410px;
+    height: 230px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-right: none;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid #ffffff;
+        color: white;
+    }
+    transition: border 0.3s, color 0.3s;
+}
+
+.example-title{
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.example-p{
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.example-img{
+    width: 63px;
+    margin-top: 10px;
+}

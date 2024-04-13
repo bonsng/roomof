@@ -1,0 +1,50 @@
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../../public/imgs/bg_image.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.text_group {
+  display: flex;
+  flex-direction: column;
+}
+
+.title1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.button_group{
+  margin-top: 10px;
+}
+
+.button1 {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 23px;
+}
+
+
