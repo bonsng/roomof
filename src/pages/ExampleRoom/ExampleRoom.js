@@ -13,7 +13,7 @@ import { useRoute } from "wouter";
 import { easing } from "maath";
 import getUuid from "uuid-by-string";
 import * as THREE from "three";
-import Model from "../Model";
+import { Model } from "./Model"
 import styles from "./ExampleRoom.module.css";
 import { ControlledInput } from "../../components/Constants/ControlledInputs";
 import VisitPage from "../../components/VisitPage/VisitPage";

@@ -4,7 +4,7 @@ const ExampleButton = () => {
     const navigate = useNavigate();
 
     const enterExampleRoom = () => {
-        navigate({pathname:"/exampleRoom"})
+        navigate({ pathname: "/exampleRoom" });
     }
 
     return (
