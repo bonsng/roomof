@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# RoomOf
+https://bonsng.github.io/RoomOf
+### 가상 추모 공간 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 한 사람을 추모하기 위한 가상 공간을 제공하는 서비스 RoomOf 입니다.
+> 
+> 언제 어디서든 보고싶은 사람을 만날 수 있는 공간을 제공하고자 하는 마음에 만들게 된 서비스입니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# Index
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [서비스 소개](#서비스-소개)
+  - [가상공간 제공](#가상공간-제공)
+  - [TTS](#tts-)
+  - [방명록](#방명록)
 
+## Getting Started
+
+---
+
+### - You can clone the project by:
+```git 
+git clone https://github.com/bonsng/RoomOf.git
+```
+
+
+### -You can install dependencies by:
+### `npm install`
+
+
+### - In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+The project is deployed and can be viewed live at [here](https://bonsng.github.io/RoomOf)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 서비스 소개
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 가상공간 제공
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Three.js 로 구현된 가상 공간에 해당 인물의 사진/동영상, 인물의 목소리 (TTS), 방명록 등을 제공합니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### TTS 
+### (현재 서버의 문제로 작동하지 않습니다.)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+인물의 목소리를 학습하여, 듣고 싶은 말을 입력하면 해당 인물의 목소리로 글을 읽어줍니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### 방명록
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+해당 인물에게 남기고 싶은 말을 남길 수 있는 방명록입니다. 다른 사람들도 들어와 어떤 사람들이 해당 인물을 그리워하는지 볼 수 있습니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
